@@ -12,8 +12,8 @@ for i = 1:units.outdimension
     
     % Hilfsvariablen
     % alpha * Eigenwert
-    % Anderes Alpha als im Hauptalgo. Dieses Alpha l‰uft gegen 1 w‰hrend
-    % das normale alpha gegen 0 l‰uft. Deshalb hier 1-alpha
+    % Anderes Alpha als im Hauptalgo. Dieses Alpha l√§uft gegen 1 w√§hrend
+    % das normale alpha gegen 0 l√§uft. Deshalb hier 1-alpha
     helperVariable1 = (1-units.alpha)*units.eigenvalue(i);
     % beta * Output
     % gleicher Verlauf wie Alpha aus Hauptalgo
